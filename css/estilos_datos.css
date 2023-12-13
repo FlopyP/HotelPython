@@ -1,0 +1,119 @@
+body{
+    background-color: #407198;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.acciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    color: #ffffff;
+}
+
+
+/*---------------------------*/
+/*----Estilo para el logo----*/
+/*---------------------------*/
+
+img{
+    width: 15vw;
+}
+
+
+/*-----------------------------*/
+/*----Estilo para el titulo----*/
+/*-----------------------------*/
+
+.inicio .titulo{
+    font-size: 3em;
+    color:#ffffff;
+
+}
+
+/*----------------------------*/
+/*----Estilo para la tabla----*/
+/*----------------------------*/
+
+.listado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3em;
+}
+
+.listado h2{
+    font-size: 30px;
+    padding-bottom: 1em;
+
+}
+
+/*----Estilo para la tabla----*/
+.listado table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+.listado th, .listado td {
+    padding: 12px; /* Ajusta el valor según tu preferencia */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.listado th {
+    background-color: #407198;
+    color: white;
+}
+
+
+/* Estilo para los botones de acciones */
+.acciones button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 23, 51); /* Color azul para los botones */
+}
+
+
+/* Estilo para el botón Modificar */
+.listado table button.modificar {
+    padding: 10px 20px;
+    background-color: rgb(5, 23, 51);
+    color: white;
+}
+
+/* Estilo para el botón Eliminar */
+.listado table button.eliminar {
+    padding: 10px 20px;
+    background-color: #6e132f;
+    color: white;
+}
+
+
+/*-----------------------------*/
+/*----Estilo para el footer----*/
+/*-----------------------------*/
+
+.footer{
+    text-align: center;
+}
+
+.footer p{
+    color: #ffffff;
+}
